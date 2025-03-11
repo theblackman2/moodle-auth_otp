@@ -100,7 +100,7 @@ $url = $CFG->wwwroot . "/login/index.php";
                                         <label for="username" class="sr-only">
                                               <?php echo get_string('username', 'auth_otp')?>
                                         </label>
-                                        <input type="tel" name="phone" id="phone" class="form-control"
+                                        <input type="tel" name="phone" id="" class="form-control"
                                                value="<?php echo $usname; ?>" placeholder="phone" autocomplete="phone">
                                         <input type="hidden" name="username" value="<?php echo $usname; ?>"
                                                placeholder="" required id="username">
